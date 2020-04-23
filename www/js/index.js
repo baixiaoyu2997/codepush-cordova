@@ -16,6 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+var vConsole = new VConsole();
 var app = {
     // Application Constructor
     initialize: function() {
