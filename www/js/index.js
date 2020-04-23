@@ -27,6 +27,8 @@ var app = {
     // Bind any cordova events here. Common events are:
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
+        // window.codePush.sync(undefined,{deploymentKey:'UasrTttbvwC2EBuyrhgjqhvz22sp5VX8kb0JV'});
+        window.codePush.sync();
         this.receivedEvent('deviceready');
     },
 
@@ -38,8 +40,8 @@ var app = {
 
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
-
         console.log('Received Event: ' + id);
+       
     }
 };
 
