@@ -15,6 +15,7 @@
   "dependencies": {
     "code-push": "^3.0.1",
     "cordova-android": "^8.1.0",
+    "cordova-browser": "^6.0.0",
     "cordova-plugin-appcenter-push": "^0.5.1",
     "cordova-plugin-appcenter-shared": "^0.5.1",
     "cordova-plugin-code-push": "^1.12.2",
@@ -35,7 +36,8 @@
       "cordova-plugin-zip": {}
     },
     "platforms": [
-      "android"
+      "android",
+      "browser"
     ]
   },
   "devDependencies": {
