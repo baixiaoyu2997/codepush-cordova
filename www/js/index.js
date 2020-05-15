@@ -113,7 +113,7 @@ var checkUpdate = () => {
       optionalIgnoreButtonLabel: "取消", // 忽略更新文字，默认ignore
       optionalInstallButtonLabel: "确定", // 安装更新文字，默认install
       optionalUpdateMessage: "确认要切换至该版本吗？", // 更新主体文字，默认"An update is available. Would you like to install it?".
-      updateTitle: "提示", // diainfo标题，默认"Update available"
+      updateTitle: "提示", // 标题，默认"Update available"
     }
   };
   const downloadProgress = (downloadProgress) => {
